@@ -1,0 +1,208 @@
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2008 Nathaniel Johnston <nathaniel@nathanieljohnston.com> http://www.nathanieljohnston.com
+%
+%This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 2.5 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/2.5/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,11pt]{article}
+\newlength{\outerbordwidth}
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\usepackage[svgnames]{xcolor}
+\usepackage{framed}
+\usepackage{tocloft}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{tocloft}
+
+%-----------------------------------------------------------
+%Edit these values as you see fit
+
+\setlength{\outerbordwidth}{3pt}  % Width of border outside of title bars
+\definecolor{shadecolor}{gray}{0.75}  % Outer background color of title bars (0 = black, 1 = white)
+\definecolor{shadecolorB}{gray}{0.93}  % Inner background color of title bars
+
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\evensidemargin}{-0.25in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\paperheight}{11in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\tabcolsep}{0in}
+\setlength{\textheight}{9.5in}
+\setlength{\textwidth}{7in}
+\setlength{\topmargin}{-0.3in}
+\setlength{\topskip}{0in}
+\setlength{\voffset}{0.1in}
+
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{\vspace{8pt}
+    \setlength{\fboxsep}{0pt}\setlength{\fboxsep}{4pt}\textbf{\sffamily{ \Large #1 \vphantom{p\^{E}}}}
+}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textbf{#4} \\
+\end{tabular*}\vspace{-6pt}}
+
+\newcommand{\sectiontitle}[1]{
+\begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		\textbf{#1}
+\end{tabular*}}
+
+
+\newcommand{\project}[3]{
+\begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		 \textit{#1} & \textbf{#3} \\
+\end{tabular*}
+\begin{minipage}{0.8\textwidth}
+#2
+\end{minipage}
+}
+
+\newcommand{\skill}[2]{
+\begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		\textbf{#1}: #2
+\end{tabular*}}
+
+\newcommand{\lang}[2]{
+\begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		#1: (\textbf{#2})
+\end{tabular*}}
+
+
+\newcommand{\conference}[2]{
+\begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		#1 & \textbf{#2} \\
+\end{tabular*}\vspace{-6pt}}
+
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large Guillaume de Chambrier} & Age: 28 \\
+ Avenue de la Gare 3 & Civil status: Married\\
+ 1020 Renens, Switzerland & Nationality: Swiss \& British\\
+ +41 79 822 76 35 & \\
+ guillaume.dechambrier@epfl.ch\\
+\end{tabular*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Strengths}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%An impactful summary on what you want the recruiter to remember 
+\begin{itemize}
+ \item[] 
+ \begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+     $\bullet$ Excellent and objective presentation skills, fluent in French and English.\\
+     $\bullet$ Expert in machine learning and statistical analysis.\\
+ \end{tabular*}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Objective}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+ \item[]
+  \begin{minipage}{0.75\textwidth}
+  A position in quantitative analysis and policy-making with varying challenges. An emphasis on collaboration
+  and interaction with an international aspect would be ideal. 
+  \end{minipage}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Education}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item[]
+\ressubheading{Ecole Polytéchnique Fédérale de Lausanne}{Lausanne, CH}{Doctoral student in Manufacturing Systems \& Robotics}{2012 - 2015}
+\item[] 
+\ressubheading{University of Edinburgh}{Edinburgh, UK}{First class Master of Informatics with Honours Informatics}{2006 - 2011}
+\item[]
+\ressubheading{Universität des Saarlandes}{Saarbüken, DE}{Erasmus Exchange, Bachelor}{2008 - 2009}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Awards}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+ \item[] 
+ \ressubheading{Google Prize}{Edinburgh, UK}{ $\bullet$  Best Phase 1 Project in Master of Informatics Programme}{Sep. 2010}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Professional Experience}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Mention the most relevant experiences and emphasize the ones that deserve it ("depreciation risk")
+
+\begin{itemize}
+ \item[]\sectiontitle{Teaching assistant}
+ \project{Master Course Applied Machine Learning}{$\bullet$ taught full lectures, introduced continuous examination.}{2012-2015}
+\end{itemize}
+
+\begin{itemize}
+  \item[]\sectiontitle{European Project}
+ \project{Flexible Skill and Intuitive Robot Tasking (http://www.first-mm.eu/)}{$\bullet$ successfully contributed multiple deliverables \& presentations}{2012-2013}
+\end{itemize}
+
+\begin{itemize}
+  \item[]  \sectiontitle{Scientific Conferences}
+ \conference{\textit{Humanoids}, Atlanta, US}{Oct. 2013}
+  \item[]
+ \conference{\textit{Robotics \& Biomimetics (ROBIO)}, Shenzhen, CN}{Dec. 2013}\vspace*{0.2cm}
+ $\bullet$ present in front of audiences $>$ 100.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Technical Skill}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+\item[] \skill{Programming}{C/C++, Python, Java, MATLAB.}
+\end{itemize}
+
+\begin{itemize}
+ \item[] \skill{Numerical Analysis:}{Machine Learning, Statistical Analysis and Data Mining.} 
+\end{itemize}
+
+\resheading{Languages}
+
+\begin{itemize}
+ \item[] \lang{French}{native} 
+ \item[] \lang{English}{native}  
+\end{itemize}
+
+%\item {\bf Computer Science:} Machine Learning, Data Mining, Parallel Programming, Data Structures, Artificial Intelligence, Operating Systems
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{References}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\\[0.1cm]
+\hspace{1cm}
+\begin{minipage}[t]{0.4\textwidth}
+Lecturer J. Michael Herrmann\\
+University of Edinburgh\\
+Supervisor for Master Project\\
+E-mail: michael.herrmann@ed.ac.uk\\
+Phone: +44 (0)131 651-7177\\
+\end{minipage}
+\begin{minipage}[t]{0.4\textwidth}
+Prof. Aude Billard\\
+Ecole Polytechnique Fédérale de Lausanne\\
+Doctoral Thesis supervisor\\
+E-mail: aude.billard@epfl.ch\\
+Phone:  +41 (0)21 693-5464\\
+\end{minipage}
+
+
+
+\end{document}

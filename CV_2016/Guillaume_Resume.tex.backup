@@ -1,0 +1,139 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75, top=1cm, bottom=1cm, left=1.5cm, right=1.5cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage{ragged2e}
+\usepackage[utf8]{inputenc} % Accent support
+\inputencoding{latin1}
+
+% personal data
+\name{Guillaume}{de Chambrier}
+% \title{Neuroscientist}                               % optional, remove / comment the line if not wanted
+\address{Avenue de la Gare 3}{1020 Renens}{Switzerland}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\birthday{29.06.1987}
+\phone[mobile]{079~822~76~35}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{guillaume.dechambrier@epfl.ch}                               % optional, remove / comment the line if not wanted
+\homepage{http://lasa.epfl.ch/people/member.php?SCIPER=213946.com}                         % optional, remove / comment the line if not wanted
+% \social[linkedin]{}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
+%\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
+\extrainfo{Married}                 % optional, remove / comment the line if not wanted
+\extrainfo{Swiss and British} 
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Strive for perfection, settle for excellence.}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+
+
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\vspace{-.7cm}
+
+%----- Profile -----
+\section{Profile}
+With several independent projects, I am well trained in building robotics. Meticulous and possessing strong analytical skills, I am looking for a chance with interesting challenges in robotics.
+
+%----- Education -----
+\section{Education}
+\cveducationentry{2012 - 31.08.2016}{PhD in Manufacturing Systems \& Robotics}{École polytechnique fédérale de Lausanne, Switzerland}{}{
+  \begin{itemize}
+	  \item Thesis: Learning Search Strategies from Human Demonstrations \\supervisor: Prof Aude Billard 
+  \end{itemize}}
+\vspace*{-0.2\baselineskip}
+
+\cveducationentry{2006 - 2011}{First class Master of Informatics with Honours Informatics}{University of Edinburgh, UK}{}{
+  \begin{itemize}
+		\item Thesis: Statistical Analysis of DNA Methylation Profile
+  \end{itemize}}
+\vspace*{-0.2\baselineskip}
+
+\cveducationentry{2008 - 2009}{Erasmus Exchange, Bachelor}{Universität des Saarlandes, Germany}{}{}
+\vspace*{-0.2\baselineskip}
+
+
+%----- Experience -----
+\section{Experience}
+\cveducationentry{2012-present}{Teaching Assistant}{École polytechnique fédérale de Lausanne}{}{
+	\begin{itemize}
+		\item Course: Applied Machine Learning (Master)
+	\end{itemize}}
+
+\cveducationentry{2012-2013}{European Project}{École polytechnique fédérale de Lausanne}{}{
+  \begin{itemize}
+		\item Flexible Skill and Intuitive Robot Tasking 
+	\end{itemize}}
+\vspace*{0.2\baselineskip} 
+
+
+%----- Technical Skills -----
+\section{Technical Skills}
+\cvitem{Programming}{C/C++, Python, Java, MATLAB}
+\vspace*{0.2\baselineskip} 
+\cvitem{Expertise}{Regression, classification and clustering algorithms, Statistics}
+\vspace*{0.2\baselineskip} 
+
+%----- Languages -----
+\section{Languages}
+\textbf{French, English} (first language)
+\vspace*{0.2\baselineskip} 
+
+%----- Awards and Certification -----
+\section{Awards and Certification}
+\cvitem{2010}{Google Prize: Best Phase 1 Project in Master of Informatics Programme}
+\vspace*{0.2\baselineskip} 
+
+%----- Conference Oral Presentations -----
+\section{Conference Oral Presentations}
+\cvitem{de Chambrier G,et al}{(Oct. 2013). Learning from Failed Demonstrations in Unreliable Systems.  IEEE-RAS International Conference on Humanoid Robots, Atlanta, US.}
+\vspace*{0.2\baselineskip} 
+\cvitem{de Chambrier G,et al}{(Dec. 2013). Learning search behaviour from humans. IEEE-Robotics and Biomimetics (ROBIO), Shenzhen, CN.}
+\vspace*{0.2\baselineskip} 
+\cvitem{de Chambrier G,et al}{(Jun. 2014).  Learning search policies from humans in a partially observable context. Journal of Robotics and Biomimetics. 1:8}
+\vspace*{0.2\baselineskip} 
+\cvitem{de Chambrier G,et al}{(2016).  Learning Peg-in-Hole policies given no visual information. Journal of Robotics and Autonomous Systems (RAS) \textit{(under review)}}
+\vspace*{0.2\baselineskip} 
+\cvitem{de Chambrier G,et al}{(2016).  Measurement Likelihood Memory for Bayesian State Estimation for search scenarios. Journal: Frontiers in Artificial Intelligence\textit{(under review)}}
+\vspace*{0.2\baselineskip} 
+
+
+
+% \clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
