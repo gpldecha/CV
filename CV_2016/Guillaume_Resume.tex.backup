@@ -34,7 +34,7 @@
 \phone[mobile]{079~822~76~35}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
 %\phone[fixed]{+2~(345)~678~901}
 %\phone[fax]{+3~(456)~789~012}
-\email{guillaume.dechambrier@epfl.ch}                               % optional, remove / comment the line if not wanted
+\email{chambrierg@gmail.com}                               % optional, remove / comment the line if not wanted
 \homepage{http://lasa.epfl.ch/people/member.php?SCIPER=213946.com}                         % optional, remove / comment the line if not wanted
 % \social[linkedin]{}                        % optional, remove / comment the line if not wanted
 %\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
@@ -68,45 +68,52 @@
 
 %----- Profile -----
 \section{Profile}
-With several independent projects, I am well trained in building robotics. Meticulous and possessing strong analytical skills, I am looking for a chance with interesting challenges in robotics.
+With several independent projects, I am an expert in developing and applying machine learning techniques to robot systems and I poses meticulous strong analytical skills. 
 
 %----- Education -----
 \section{Education}
 \cveducationentry{2012 - 31.08.2016}{PhD in Manufacturing Systems \& Robotics}{École polytechnique fédérale de Lausanne, Switzerland}{}{
   \begin{itemize}
-	  \item Thesis: Learning Search Strategies from Human Demonstrations \\supervisor: Prof Aude Billard 
+	  \item Thesis: Learning Search Strategies from Human Demonstrations \\supervisor: Prof. Aude Billard 
   \end{itemize}}
 \vspace*{-0.2\baselineskip}
 
 \cveducationentry{2006 - 2011}{First class Master of Informatics with Honours Informatics}{University of Edinburgh, UK}{}{
   \begin{itemize}
-		\item Thesis: Statistical Analysis of DNA Methylation Profile
+		\item Thesis: Building and Controlling a Hexapod Robot \\supervisor: Dr. Michael Herrmann
   \end{itemize}}
 \vspace*{-0.2\baselineskip}
 
 \cveducationentry{2008 - 2009}{Erasmus Exchange, Bachelor}{Universität des Saarlandes, Germany}{}{}
-\vspace*{-0.2\baselineskip}
 
 
 %----- Experience -----
 \section{Experience}
-\cveducationentry{2012-present}{Teaching Assistant}{École polytechnique fédérale de Lausanne}{}{
+\cveducationentry{2013-2016}{Teaching Assistant}{École polytechnique fédérale de Lausanne}{}{
 	\begin{itemize}
-		\item Course: Applied Machine Learning (Master)
+		\item Course: Applied Machine Learning (MSc)
+		\item Course: Advanced Machine Learning (MSc)
 	\end{itemize}}
 
 \cveducationentry{2012-2013}{European Project}{École polytechnique fédérale de Lausanne}{}{
   \begin{itemize}
 		\item Flexible Skill and Intuitive Robot Tasking 
 	\end{itemize}}
-\vspace*{0.2\baselineskip} 
 
+\cveducationentry{2013}{Supervision}{École polytechnique fédérale de Lausanne}{}{
+  \begin{itemize}
+		\item Akshara Rai (Msc student)
+	\end{itemize}
+}
+
+	
 
 %----- Technical Skills -----
 \section{Technical Skills}
 \cvitem{Programming}{C/C++, Python, Java, MATLAB}
 \vspace*{0.2\baselineskip} 
-\cvitem{Expertise}{Regression, classification and clustering algorithms, Statistics}
+\cvitem{Expertise}{Robotics, Reinforcement Learning, Non-parametric Bayesian inference, 
+Machine learning \& Computer Vision}
 \vspace*{0.2\baselineskip} 
 
 %----- Languages -----
@@ -119,8 +126,12 @@ With several independent projects, I am well trained in building robotics. Metic
 \cvitem{2010}{Google Prize: Best Phase 1 Project in Master of Informatics Programme}
 \vspace*{0.2\baselineskip} 
 
+\section{Publication}
+
+\cvitem{de Chambrier G,et al}{(Oct. 2013). Learning from Failed Demonstrations in Unreliable Systems.  IEEE-RAS International Conference on Humanoid Robots, Atlanta, US.}
+
 %----- Conference Oral Presentations -----
-\section{Conference Oral Presentations}
+\section{Oral Presentations}
 \cvitem{de Chambrier G,et al}{(Oct. 2013). Learning from Failed Demonstrations in Unreliable Systems.  IEEE-RAS International Conference on Humanoid Robots, Atlanta, US.}
 \vspace*{0.2\baselineskip} 
 \cvitem{de Chambrier G,et al}{(Dec. 2013). Learning search behaviour from humans. IEEE-Robotics and Biomimetics (ROBIO), Shenzhen, CN.}
