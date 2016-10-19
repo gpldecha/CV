@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.17)  18 OCT 2016 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.17)  19 OCT 2016 11:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1161,11 +1161,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21772 strings out of 493029
- 356610 string characters out of 6136233
- 436868 words of memory out of 5000000
+ 21774 strings out of 493029
+ 356634 string characters out of 6136233
+ 436836 words of memory out of 5000000
  25042 multiletter control sequences out of 15000+600000
- 48883 words of font info for 50 fonts, out of 8000000 for 9000
+ 48984 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,15n,67p,10368b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist
@@ -1174,9 +1174,9 @@ fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmsso10.pfb>
-Output written on Guillaume_Resume.pdf (2 pages, 103663 bytes).
+Output written on Guillaume_Resume.pdf (2 pages, 102503 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
  12857 words of extra memory for PDF output out of 14400 (max. 10000000)
