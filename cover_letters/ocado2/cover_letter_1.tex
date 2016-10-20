@@ -1,0 +1,136 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plain Cover Letter
+% LaTeX Template
+% Version 1.0 (28/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% http://www.rpi.edu/dept/arc/training/latex/resumes/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{letter} % Default font size of the document, change to 10pt to fit more text
+
+\usepackage{newcent} % Default font is the New Century Schoolbook PostScript font 
+%\usepackage{helvet} % Uncomment this (while commenting the above line) to use the Helvetica font
+
+% Margins
+\topmargin=-1in % Moves the top of the document 1 inch above the default
+\textheight=8.5in % Total height of the text on the page before text goes on to the next page, this can be increased in a longer letter
+\oddsidemargin=-10pt % Position of the left margin, can be negative or positive if you want more or less room
+\textwidth=6.5in % Total width of the text, increase this if the left margin was decreased and vice-versa
+
+\let\raggedleft\raggedright % Pushes the date (at the top) to the left, comment this line to have the date on the right
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{letter}{Ocado Limited\\ Freepost 13498\\ PO BOX 3 62\\ Hatfield AL9 7BR} 
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME & ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+\large\bf Dr. Guillaume de Chambrier \\ % Your name
+%\vspace{20pt} \hrule height 1pt % If you would like a horizontal line separating the name from the address, uncomment the line to the left of this text
+Avenue de la gare 3 \\ 1020 Renens \\ (+41) 79 822 76 35 % Your address and phone number
+\end{center} 
+\vfill
+
+\signature{Guillaume de Chambrier} % Your name for the signature at the bottom
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT SECTION
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Mrs./Mr.,} 
+
+
+%it's ok but right now it doesn't look like you spent much time writing it.
+%Just in case you didn't notice, the first paragraph is repeated. The official name of the project is SecondHands, 
+%written together with capital S, H. In the third paragraph, I don't know what you mean by "the hart of acting under uncertainty", is it art/heart??
+
+%I think you should structure a bit more your skills.
+
+% (1) Say first that you are an expert in mathematical modelling,  machine learning and robotics. 
+
+% (2) Then you talk about you thesis "The essence of my Ph.D thesis lies at the heart? 
+%     of acting under uncertainty which will be a valuable skill to contribute to the project." And then you highlight 
+%     your experience with many of the numerous robots from LASA, for example with the LWR + F/T sensor.
+
+
+% (3) They will like you, because they have to integrate the setup and the code from LASA at Ocado, 
+%     and you would be perfect for helping there at the beginning and immediately.
+
+%     Best,
+%     jose
+
+
+I am a Swiss-British national and I have recently obtained my Ph.D doctorate in robotics from
+EPFL in the LASA robotics lab which happens to also be a partner in the SecondHands
+European project. I was made aware of your vacancy from the robotics-worldwide message
+group.
+
+
+I am an expert in Machine Learning (ML), mathematical modelling and robotics. I have 
+been teaching two  machine learning classes at EPFL for both MSc and Ph.Ds. I have supervised 
+students and published novel machine learning methods in reinforcement learning and non-parametric Bayesian 
+state space estimation with an emphasis on robotic applications. 
+I am continuously implementing, testing and deploying ML methods as it is also a hobby of mine (see 
+\href{http://chambrierg.com/projects/np_regression/}{non-parametric regression} and \href{http://chambrierg.com/projects/e-pca/}{E-PCA} 
+for examples ML software packages I developed).
+
+The essence of my Ph.D thesis lies at the heart of acting under uncertainty which will 
+be a valuable skill to contribute to the SecondHands project and to Ocado in general. Throughout 
+my Ph.D I have become familiar with belief-space planning techniques and I have developed and published robotic control 
+algorithms which consider state uncertainty during task execution. This also led me to become an expert software developer 
+for robotic systems. For instance I developed a ROS package for an ATI force-torque sensor and a KUKA LWR robot (see \href{https://github.com/epfl-lasa/kuka-lwr-ros}{kuka-lwr-ros}). 
+I am an expert in ROS, ros\_control, moveit and I am a daily C++/Python programmer working predominately with Linux operation systems. 
+
+I used these platforms (currently being used by SecondHands members, you may contact Jos\'{e} Ram\'{o}n Medina who is currently working on 
+the SecondHands project and is using the software I developed) to teach the KUKA, in a programming by demonstration framework, to search for and 
+connect an electric power socket without using any visual information (see \href{http://chambrierg.com/projects/rl_belief_space/}{Reinforcement learning in belief space}). 
+I have also experience with other robotic platforms, besides the KUKA LWR, such as Barrett WAM Arm, Hand and Allegro Hand. In terms of libraries, I have worked with and added a new distance metric 
+to the KDTree of point cloud library.  
+
+
+Beyond SecondHands, I am looking to be part of an ambitious robotic company looking to 
+acquire a global presence.  The increasing investment by Ocado in robotic systems whilst 
+recognising the importance of human-robot collaboration makes it an ideal environment 
+for me to contribute to. I am looking forward to the possibility of being part of 
+Ocado in which I seek to contribute to the development and increase of its robotic 
+section.
+
+I will be moving to London at the start of next year, but I will be at your disposition at any
+time for an interview. You can also visit my personal web-page: \href{www.chambrierg.com}{chambrierg.com}
+
+\closing{Sincerely yours,}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+
+\end{document}
