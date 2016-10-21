@@ -65,7 +65,7 @@ Avenue de la gare 3 \\ 1020 Renens \\ (+41) 79 822 76 35 % Your address and phon
 %	LETTER CONTENT SECTION
 %----------------------------------------------------------------------------------------
 
-\opening{Dear Mrs./Mr.,} 
+\opening{Dear Ms. Markey} 
 
 
 %it's ok but right now it doesn't look like you spent much time writing it.
@@ -86,47 +86,38 @@ Avenue de la gare 3 \\ 1020 Renens \\ (+41) 79 822 76 35 % Your address and phon
 
 %     Best,
 %     jose
+%--------------------------------------------------------------------------------------------------
+%Here is my new propostion :
+%check out vacancy for robotics research engineer under :http://www.ocado.jobs/ocado-technology-careers/
+%Have you done Java and Unix. If so you can complete the sentence concerning Linux with
+%- 
+%and I have used Java and Unix in past projects.
+%----
 
+I am writing to you having been informed of your vacancy through the robotics-worldwide message group. A Swiss-British national, I have recently obtained my Ph.D doctorate in 
+robotics from the Swiss Federal Institute of Technology Lausanne (EPFL) in the LASA robotics laboratory, partner in the SecondHands European project.
 
-I am a Swiss-British national and I have recently obtained my Ph.D doctorate in robotics from
-EPFL in the LASA robotics lab which happens to also be a partner in the SecondHands
-European project. I was made aware of your vacancy from the robotics-worldwide message
-group.
+My expertise lies in Machine Learning (ML), mathematical modelling and robotics. I have both taught cours in Machine Learning (MSc and Ph.D) and  published 
+work on new machine learning methods in reinforcement learning and non-parametric Bayesian state space estimation with an emphasis on robotic applications. 
+See current examples of my ML activities. (http://chambrierg.com/projects/np\_regression/ and http://chambrierg.com/projects/e-pca/)
 
+My research for the past five years has focused on acting under uncertainty. Using  belief-space planning techniques I have developed and published robotic control 
+algorithms which consider state uncertainty during task execution. I  am an expert in   ROS, ros\_control, Moveit for robotic systems and I have strong software expertise 
+in C++/Python under Linux. I have developed a ROS package for an ATI force-torque sensor and a KUKA LWR robot (see \href{https://github.com/epfl-lasa/kuka-lwr-ros}{kuka-lwr-ros}), 
+and Jos\'{e} Ram\'{o}n Medina, working in the SecondHands project, is currently using my software and he would be happy to give you an appraisal. This framework has been used 
+specifically to teach the KUKA to search for and connect an electric power socket without using any visual information in a programming by demonstration 
+framework (see \href{http://chambrierg.com/projects/rl_belief_space/}{Reinforcement learning in belief space}). I  have also experience with other robotic 
+platforms such as the Barrett WAM Arm, Hand and Allegro Hand and I have contributed a new distance metric to the KDTree of point cloud library.
 
-I am an expert in Machine Learning (ML), mathematical modelling and robotics. I have 
-been teaching two  machine learning classes at EPFL for both MSc and Ph.Ds. I have supervised 
-students and published novel machine learning methods in reinforcement learning and non-parametric Bayesian 
-state space estimation with an emphasis on robotic applications. 
-I am continuously implementing, testing and deploying ML methods as it is also a hobby of mine (see 
-\href{http://chambrierg.com/projects/np_regression/}{non-parametric regression} and \href{http://chambrierg.com/projects/e-pca/}{E-PCA} 
-for examples ML software packages I developed).
+Ocado is company where I can contribute in a significant way to state-of-the-art robotics research using my knowledge of sensor-guided robotic systems. 
+The increasing investment by Ocado in robotic systems and their recognition of the importance of human-robot collaboration makes it an ideal environment. 
+I should be most happy to be part of an ambitious robotic company looking to acquire a global presence.
 
-The essence of my Ph.D thesis lies at the heart of acting under uncertainty which will 
-be a valuable skill to contribute to the SecondHands project and to Ocado in general. Throughout 
-my Ph.D I have become familiar with belief-space planning techniques and I have developed and published robotic control 
-algorithms which consider state uncertainty during task execution. This also led me to become an expert software developer 
-for robotic systems. For instance I developed a ROS package for an ATI force-torque sensor and a KUKA LWR robot (see \href{https://github.com/epfl-lasa/kuka-lwr-ros}{kuka-lwr-ros}). 
-I am an expert in ROS, ros\_control, moveit and I am a daily C++/Python programmer working predominately with Linux operation systems. 
-
-I used these platforms (currently being used by SecondHands members, you may contact Jos\'{e} Ram\'{o}n Medina who is currently working on 
-the SecondHands project and is using the software I developed) to teach the KUKA, in a programming by demonstration framework, to search for and 
-connect an electric power socket without using any visual information (see \href{http://chambrierg.com/projects/rl_belief_space/}{Reinforcement learning in belief space}). 
-I have also experience with other robotic platforms, besides the KUKA LWR, such as Barrett WAM Arm, Hand and Allegro Hand. In terms of libraries, I have worked with and added a new distance metric 
-to the KDTree of point cloud library.  
-
-
-Beyond SecondHands, I am looking to be part of an ambitious robotic company looking to 
-acquire a global presence.  The increasing investment by Ocado in robotic systems whilst 
-recognising the importance of human-robot collaboration makes it an ideal environment 
-for me to contribute to. I am looking forward to the possibility of being part of 
-Ocado in which I seek to contribute to the development and increase of its robotic 
-section.
-
-I will be moving to London at the start of next year, but I will be at your disposition at any
+I will be moving to London in January and I am at your disposition at any
 time for an interview. You can also visit my personal web-page: \href{www.chambrierg.com}{chambrierg.com}
 
-\closing{Sincerely yours,}
+\closing{Yours sincerely,}
+
 
 
 %----------------------------------------------------------------------------------------
